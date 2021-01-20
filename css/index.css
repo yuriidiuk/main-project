@@ -38,7 +38,7 @@ header nav a img {
     margin-right: -30px;
 }
 
-#Clients p {
+#reviews p {
     align-content: stretch;
 }
 
@@ -104,18 +104,18 @@ header .search {
     width:80%;
 }
 
-.car-img{
+.auto-img{
     width: 100%;
 }
 
-#work-2{
+#index-2{
     display: none;
 }
 
-#work{
+#index{
     justify-content: space-around;
 }
-    .work-string{
+    .index-string{
     display: flex;
     width: 100%;
     align-items: center; 
@@ -123,7 +123,7 @@ header .search {
     margin-right: auto;
  }
 
- .work-item{
+ .index-item{
      width: 18%;
      margin-top: 35px;
      margin-left: auto;
@@ -131,14 +131,14 @@ header .search {
      position: relative
  }
 
- .work-item img{
+ .index-item img{
      position: absolute;
      margin-left: auto;
      margin-right: auto;
      margin-top: -15px;
  }
 
-.work-item p{
+.index-item p{
     margin-top: 100px;
        position: absolute;
  }
@@ -151,20 +151,20 @@ header .search {
 }
 
 @media (max-width: 1000px){
-    #work-2{
+    #index-2{
     display: block;
     margin-left: auto;
     margin-right: auto;
    
     }
-    .work-item-2{
+    .index-item-2{
     width: 27%;
     align-items: center; 
     margin-left: auto;
     margin-right: auto;
     }
 
-    #work{
+    #index{
         display: none;
     }
 
@@ -180,7 +180,7 @@ header .search {
     margin-bottom: 50px;
 }
 
- .car-h {
+ .auto-h {
     margin-top: 80px;
 }
 
@@ -202,6 +202,7 @@ header .search {
 .row {
     width: 100%;
     display: flex;
+    align-items: center;
 }
 
 .Feedback{
@@ -212,8 +213,9 @@ header .search {
 }
 
 .bot {
-    margin-top: 70px;
-    margin-left: 75px;
+    margin: 75px;
+    display: flex;
+    align-items: center;
 }
 
 .bot2 {
