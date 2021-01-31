@@ -36,6 +36,13 @@
                      <li class="nav-item">
                         <a class="nav-link" href="contacts.html">Контакти</a>
                     </li>
+                     <div class="dropdown">
+                    <button class="dropbtn">Дилери</button>
+                    <div class="dropdown-content">
+                    <a href="#">АвтоСвіт</a>
+                    <a href="#">ЗахідАвто</a>
+                    <a href="#">АвтоКраїна</a>
+                    </div>
                 </ul>
             </div>
         </nav>
@@ -48,15 +55,18 @@
     <section id="contacts">
             <h3 class="bot3">ЗАЛИШТЕ НАМ СВОЇ ДАНІ І МИ ВАМ ЗАТЕЛЕФОНУЄМО</h3>
             <div class="form">
-               <form action="https://formspree.io/xzbjdpbj" method="POST">
-               <Label><b>Name:</b>
-               <input type="textName" placeholder="Your name" name="Your name">
+               <form action="/form.php" name="form" onsubmit="return validateForm()" method="POST">
+               <Label><b>Ім'я</b>
+               <input type="text" placeholder="Your name" name="name">
                <br>
-               <Label><b>Email address:</b>
-               <input type="textAddress" placeholder="Your address" name="Your address">
+               <Label><b>Пошта:</b>
+               <input type="email" placeholder="Your address" name="address">
                <br>
-               <Label><b>Phone:</b>
-               <input type="textPhone" placeholder="Your phone" name="Your phone">
+               <Label><b>Телефон:</b>
+               <input type="text" placeholder="Your phone" name="phone">
+               <br>
+               <Label><b>Вік</b>
+               <input type="number" placeholder="Your age" name="Your age">
                <br>
                <p><b>Гендер</b></p>
                 <div>
@@ -114,6 +124,7 @@
                 </div>
             </div>
         <script src="js/index.js"></script>
+        <script src="js/validation.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
