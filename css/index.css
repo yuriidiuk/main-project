@@ -227,7 +227,7 @@ header .search {
 
 .bot3 {
     margin-top: 70px;
-    margin-left: 192px;
+    text-align: center;
     padding-bottom: 75px;
 }
 
@@ -272,6 +272,7 @@ footer .par {
 
 .form{
     display: flex;
+    justify-content: center;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -373,4 +374,17 @@ footer .par {
     min-height: 2em;
 }
 
-// ghjcnj lkz cj[h]
+ 
+.schedule-table {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.map {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
