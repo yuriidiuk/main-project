@@ -94,3 +94,8 @@ function myFu(event) {
   var x = event.key;
   document.getElementById("demo2").innerHTML = "Натиснута клавіша: " + x;
 }
+
+
+
+
+
