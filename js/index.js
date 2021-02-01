@@ -76,3 +76,21 @@ znak = true;
 }
  
 }
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+    
+function myF(event) {
+  var x = event.location;
+  document.getElementById("demo1").innerHTML = "Положення: " + x;
+}
+
+function WhichButton(event) {
+  alert("Ви натиснули: " + event.button)
+}
+
+function myFu(event) {
+  var x = event.key;
+  document.getElementById("demo2").innerHTML = "Натиснута клавіша: " + x;
+}
